@@ -103,7 +103,7 @@ export default function ComingSoonBanner() {
 
       CDN_BARS.forEach((bar, i) => {
         setTimeout(() => {
-          setActiveBars(prev => new Set([...prev, bar.id]));
+          setActiveBars(prev => new Set(Array.from(prev).concat(bar.id)));
 
           if (i === CDN_BARS.length - 1) {
             // All bars done — start gauge count-up
