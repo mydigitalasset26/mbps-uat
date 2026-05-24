@@ -1,4 +1,4 @@
-import ComingSoonBanner from '@/components/ComingSoonBanner';
+import ComingSoonBanner from '@/Components/ComingSoonBanner';
 
 export default function Home() {
   return (
