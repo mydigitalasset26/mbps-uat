@@ -53,7 +53,10 @@ export default function ComingSoonBanner() {
   };
 
   return (
-    <section className="relative flex min-h-[calc(100vh-2px)] w-full flex-col overflow-hidden rounded-[28px] border border-white/[0.08] bg-[#050606] px-6 py-20 shadow-[inset_0_1px_0_rgba(255,255,255,0.03)] sm:px-10 lg:px-16 lg:py-20">
+    <section
+      data-build="tailwind-postcss"
+      className="relative flex min-h-[calc(100vh-2px)] w-full flex-col overflow-hidden rounded-[28px] border border-white/[0.08] bg-[#050606] px-6 py-20 shadow-[inset_0_1px_0_rgba(255,255,255,0.03)] sm:px-10 lg:px-16 lg:py-20"
+    >
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_94%_10%,rgba(38,88,167,0.12),transparent_19rem)]" />
 
       <div className="relative">
